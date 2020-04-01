@@ -1,0 +1,28 @@
+System.out.println(nu1.estArrive());
+		System.out.println(nu2.estArrive());
+ 
+		nu1.affiche();
+		nu2.affiche();
+		nu1.avancerAvecConflit(5,nu2);
+		nu1.avancerAvecConflit(5,nu2);
+		nu1.avancerAvecConflit(5,nu2);
+		nu1.avancerAvecConflit(5,nu2);
+		
+
+		nu1.affiche();
+		nu2.affiche();
+		
+		nu1.avancerAvecConflit(5,nu2);
+
+		nu1.affiche();
+		nu2.affiche();
+		
+		
+		nu2.avancerAvecConflit(35,nu1);
+
+
+		nu1.affiche();
+		nu2.affiche();
+		
+		System.out.println(nu1.estArrive());
+		System.out.println(nu2.estArrive());

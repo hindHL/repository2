@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel Gallery Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="csswafa.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+</head>
+<body>
+    <!--dounia*******************************************************-->
+<div class="navigation-container">
+    <div class="navigation-content">
+        <!--logos-->
+        <div class="logos">
+            <img src="logo.png" class="logo">
+        </div>
+        <!--menu-->
+        <div class="menu">
+            <ul>
+               <li><a href="#contact"class="Contact">Contact</a></li>
+               <li><a href="#"id="About">About</a></li>
+               <li class="right">
+                <ul>
+                <li>
+                  <a href="#"><?php echo $_POST['nom']; ?>
+                  <p>dounia lamsadek<br><img src="profil.png" alt="Admin" width="30"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                  </a>
+                  <div class="dropdown">
+                    <ul>
+                    <li><a href="#" id="profil"><i class="fa fa-user" aria-hidden="true"></i>Profile</a></li><br>
+                    <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Signout</a></li>
+                    </ul>
+                  </div>
+                </li>
+                </ul>
+               </li> 
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bg-modal2">
+    <div class="modal-contents2">
+      <div class="title"><img src="profil.png" width="40px"><button id="modifier">modifier</button></div>
+      <div class="close1">+</div><!-- coix-->
+      <table  border-collapse="collapse">
+      <tr class="profil1">
+      	<td class="td1">Nom :</td>
+        <td>Dounia Lamsaddek</td>
+      </tr>
+
+      <tr class="profil1">
+      	<td class="td1">Gmail :</td>
+        <td >Dounialamsaddek00@gmail.com</td>
+      </tr>
+
+      <tr class="profil1">
+      	<td class="td1">Numero Téléphone :</td>
+        <td >020202002020</td>
+      </tr>
+      <tr class="profil1">
+      	<td class="td1">Adresse :</td>
+        <td >Idrissia 2 rue 22 n 50</td>
+      </tr>
+      <div>
+      <button id="modifier1">changer mdp???</button>
+      <button id="modifier1">changer les donnees??</button>
+       </div>
+       </table>
+    </div>
+</div>
+
+
+<div class="bg-modal">
+    <div class="modal-contents">
+      <div class="title">A propos:</div>
+      <div class="close">+</div><!-- coix-->
+    <div class="modal-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+    </div>
+    </div>
+</div>
+<div class="page-comande">
+    <div class="page-comande2">
+    <div class="close2">+</div><!-- coix-->
+
+    <fieldset class="type11">
+      <legend class="title11">type comande: </legend>
+      <div class="champ1"><input type="radio" id="scales" name="type"><label for="scales">sur place</label></div>
+      <div class="champ1" ><input type="radio" id="horns" name="type" checked><label for="horns">emporté</label></div>  
+    </fieldset>
+
+    <fieldset class="type11">
+    <legend class="title11">monada</legend>
+      <div class="champ1"><input type="radio" id="sca2" name="sauce11"><label for="sca2">coca</label></div>
+      <div class="champ1"><input type="radio" id="hor2" name="sauce12" checked><label for="hor2">fanta</label></div>
+      <div class="champ1"><input type="radio" id="oeil2" name="sauce13" checked><label for="oeil2">sprite</label></div>
+    </fieldset>
+
+    <fieldset class="type11">
+    <legend class="title11">jus</legend>
+      <div class="champ1"><input type="radio" id="sca3" name="sauce21"><label for="sca3">avocat</label></div>
+      <div class="champ1"><input type="radio" id="hor3" name="sauce22" ><label for="hor3">orange</label></div>
+      <div class="champ1"><input type="radio" id="oeil3" name="sauce23" ><label for="oeil3">banane</label></div>
+    </fieldset>
+
+    <fieldset class="type11">
+    <legend class="title11">l'eau</legend>
+      <div class="champ1"><input type="radio" id="sca3" name="sauce21"><label for="sca3">l'eau minéral</label></div>
+      <div class="champ1"><input type="radio" id="hor3" name="sauce22" ><label for="hor3">walmas</label></div>
+      <div class="champ1"><input type="radio" id="oeil3" name="sauce23" ><label for="oeil3">redbul</label></div>
+    </fieldset>
+
+    <fieldset class="type11">
+    <legend class="title11">Quantité:</legend>
+      <div class="champ1"><input type="radio" id="sca1" name="sauce21"><label for="sca1">1</label></div>
+      <div class="champ1"><input type="radio" id="hor1" name="sauce22" ><label for="hor1">2</label></div>
+      <div class="champ1"><input type="radio" id="oeil1" name="sauce23" ><label for="oeil1">3</label></div>
+    </fieldset>
+
+    <div class="env-com"><i class="fa fa-shopping-basket" aria-hidden="true"></i>ajouter aux panier</div>
+</div>
+</div>
+    <!--fin dounia*****************************-->
+
+
+
+<div class="galleryContainer">
+    <div class="slideShowContainer">
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+        <div class="imageHolder">
+            <img src="burger.jpg">
+            <p class="captionText">Devenez accro</p>
+        </div>
+
+        <div class="imageHolder">
+            <img src="salade10.jpg">
+            <p class="captionText">Caption Text-02</p>
+        </div>
+        <div class="imageHolder">
+            <img src="pitza.jfif">
+            <p class="captionText">Mangez et savourez</p>
+        </div>
+        <div class="imageHolder">
+            <img src="nuggets2.jpg">
+            <p class="captionText">Caption Text-04</p>
+        </div>
+        
+    </div>
+    <div id="dotsContainer"></div>
+</div>
+<div class="catégories">
+    <div class="cat1et2">
+        <div class="tacos">
+            <p class="textegris" >TACOS, GÉNÉREUSEMENT SIMPLE</p>
+            <p class="soustextegris">choisissez votre sauce, choisissez votre tacos et votre voyage commence</p>
+           <p class="centre"> <img src="catégories/tacos3.png" alt="tacos" class="img"></p>
+           <p class="commander"><a href="New folder/tacos.html" class="a1orange" > Commander une salade </a></p>
+        </div>
+        <div class="salades">
+            <p class="texteblanc" >SALADE,UNE FRAICHEUR EMBALLANTE</p>
+            <p class="soustexteblanc">Un peu de fraîcheur dans votre journée</p>
+            <p class="centre"><img src="catégories/saladedounia.png" alt="salade" class="img"></p>
+            <p class="commander"><a href="New folder/salade.html" class="a1blanc"> Commander une salade </a></p>
+        </div>
+        
+    </div>
+    <div class="cat3et4">
+        <div class="burger">
+            <p class="texteblanc" >LE GOÛT EXQUIS DU BŒUF</p>
+            <p class="soustexteblanc">Unique en son genre et doublement savoureux</p>
+           <p class="centre"> <img src="catégories/burgercat.png" alt="burger" class="img" id="bur"></p>
+           <p class="commander"><a href="New folder/burger.html" class="a1blanc" > Commander un burger </a></p>
+        </div>
+        <div class="pitza">
+            <p class="textegris" >PIZZA,DÉBORDANTE DE SAVEUR</p>
+            <p class="soustextegris">Fraîchement préparée pour vous.</p>
+            <p class="centre"><img src="catégories/pitzacat.png" alt="pitza" class="img" id="pit"></p>
+            <p class="commander"><a href="New folder/hiya.html" class="a1vert" > Commander une pizza </a></p>
+        </div>
+        
+    </div>
+    <div class="cat5et6">
+        <div class="soda">
+            <p class="textegris" >Boissons</p>
+            <p class="soustextegris">Mettez de la fraîcheur, Après un repas consistant</p>
+           <p class="centre"> <img src="catégories/cannette.png" alt="burger" class="img" id="boissons" ></p>
+           <p class="commander"><a href="#" class="a1orange" id="comander6"> Commander des boissons </a></p>
+        </div>
+        <div class="nuggets">
+            <p class="texteblanc" >APPETIZERS, TENDRES ET RÉCONFORTANTS</p>
+            <p class="soustexteblanc">Les complices de tous vos repas</p>
+            <p class="centre"><img src="catégories/nuggetscat.png" alt="nuggets" class="img" id="nuggets" ></p>
+            <p class="commander"><a href="New folder/nuget.html" class="a1blanc" > Commander des nuggets </a></p>
+        </div>
+    </div>    
+</div>
+<!--engagement------>
+<div class="engagement">
+    <h2>NOTRE ENGAGEMENT</h2>
+    <h2>QUALITÉ</h2>
+    <p>En tant que restaurant, nous sommes fiers de dire que nous avons fait quelques changements pour vous, nos chers clients. Sans vous, il n’y aurait aucun de nous. Donc, nous faisons notre mission d’être le O’MEGA que vous voulez. Celui qui se consacre à l’amélioration de la façon dont nous préparons notre nourriture de qualité et les ingrédients qui y entrent. Celui qui comprend que ce qui est bon pour vous et votre famille est bon pour nous.</p>
+
+</div>
+<!-- fin engagement---->
+<!--map*********************************-->
+<div class="img-snak">
+    <div>
+        <img src="map.png" class="map">
+    </div>
+    <div>
+        <img src="PopeyesYorkLanes.jpg" class="snack">
+    </div>
+</div>
+<!--fin map***************************-->
+
+<!--footer-->
+  <footer>
+    <div class="wrapper">
+        <h1 id="contact">Contact Us</h1>
+        <p>commenter wjsloikhgfdsdfghjk artyui afghj</p>
+        <div class="newsLetter">
+            <input type="text" name="text" class="text" placeholder="envoyer nous un message">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <div class="btn">envoyer</div>
+        </div>
+
+    </div>
+    <div class="social">
+        <i class="fa fa-phone" aria-hidden="true"></i><p>: 0612121212</p>
+        <i class="fa fa-address-card-o" aria-hidden="true"></i><p>: Idriisia 2 Rue22 N°50,Safi,Maroc</p>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i><p>:Gmail</p>
+        <div class="soc">
+        <p>SUIVEZ-NOUS SUR:</p>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+    </div>
+  </footer>
+
+
+
+
+<script src="script.js">
+</script>
+</body>
+</html>
